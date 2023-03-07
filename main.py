@@ -6,7 +6,7 @@ Created on Thu Mar 24 08:28:20 2022
 """
 from ga_utils import create_initial_pop, next_generation
 from fitness import fitness
-def main():
+def run_ga():
     pop_size = 30
     gen = 50
     #chromosome_shape = [7,18,18]
@@ -37,4 +37,5 @@ def main():
         #when termination criteria passes, show the best population
     print("Highest Accuracy over all generations:", highest_accuracy)
 
-main()
+if __name__ == "__main__":
+    run_ga()

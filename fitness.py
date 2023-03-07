@@ -4,15 +4,9 @@ Created on Thu Mar 24 08:26:08 2022
 
 @author: ar2806
 """
-import numpy as np
-import pandas as pd
-import random
 import tensorflow as tf
 
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.datasets import cifar10
-from tensorflow.keras.utils import to_categorical
-#from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.layers import Dense
@@ -20,8 +14,6 @@ from tensorflow.keras.layers import Flatten
 from tensorflow.keras.layers import Dropout
 from tensorflow.keras.optimizers import SGD
 import math
-from sklearn.model_selection import train_test_split
-
 
 from utils import load_dataset, prep_pixels
 from activation import get_activation

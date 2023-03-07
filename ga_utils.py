@@ -7,7 +7,6 @@ Created on Thu Mar 24 08:19:21 2022
 
 import random
 import numpy as np
-import tensorflow as tf
 import pandas as pd
 
 def create_initial_pop(pop_size=30):
